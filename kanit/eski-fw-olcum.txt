@@ -1,0 +1,121 @@
+# ÖLÇÜM — ESKİ (BOZUK) FIRMWARE  0xdfc6d922
+# Yöntem: btmon ile HCI/ACL paket yakalama, paketler arası boşluk analizi
+# Tarih: 2026-10-07/08 (yerel saat)
+
+toplam_acl_paketi = 39415
+olcum_suresi_s   = 846.2
+medyan_aralik_ms = 21.3
+p99_aralik_ms    = 21.6
+maks_aralik_ms   = 514
+bosluk_50ms_uzeri= 109
+
+# >50 ms boşluklar (t = yakalama başından saniye, gap = ms)
+  t= 260.047 s   gap=   60.1 ms
+  t= 260.107 s   gap=  144.0 ms
+  t= 264.287 s   gap=   62.1 ms
+  t= 264.375 s   gap=   50.0 ms
+  t= 264.463 s   gap=   53.4 ms
+  t= 264.535 s   gap=   74.0 ms
+  t= 264.624 s   gap=   65.0 ms
+  t= 264.764 s   gap=   86.0 ms
+  t= 264.857 s   gap=   54.0 ms
+  t= 265.190 s   gap=   65.0 ms
+  t= 265.311 s   gap=  161.0 ms
+  t= 265.511 s   gap=   70.0 ms
+  t= 265.630 s   gap=   66.0 ms
+  t= 265.736 s   gap=  152.0 ms
+  t= 265.888 s   gap=   89.0 ms
+  t= 266.023 s   gap=  514.1 ms
+  t= 266.537 s   gap=  164.0 ms
+  t= 266.701 s   gap=   65.0 ms
+  t= 266.766 s   gap=  107.0 ms
+  t= 266.873 s   gap=  120.0 ms
+  t= 266.993 s   gap=  143.0 ms
+  t= 267.136 s   gap=  182.0 ms
+  t= 267.413 s   gap=   78.0 ms
+  t= 267.498 s   gap=  128.0 ms
+  t= 267.626 s   gap=  173.0 ms
+  t= 267.799 s   gap=  108.0 ms
+  t= 267.907 s   gap=   54.0 ms
+  t= 267.979 s   gap=  152.0 ms
+  t= 268.256 s   gap=   59.0 ms
+  t= 268.315 s   gap=   79.1 ms
+  t= 268.394 s   gap=   58.0 ms
+  t= 268.452 s   gap=   54.0 ms
+  t= 268.581 s   gap=  123.0 ms
+  t= 268.777 s   gap=   89.0 ms
+  t= 268.866 s   gap=   65.0 ms
+  t= 268.931 s   gap=   50.0 ms
+  t= 268.988 s   gap=   85.0 ms
+  t= 269.144 s   gap=  124.9 ms
+  t= 269.269 s   gap=   57.1 ms
+  t= 269.326 s   gap=   81.0 ms
+  t= 269.407 s   gap=   86.0 ms
+  t= 269.573 s   gap=  174.0 ms
+  t= 269.747 s   gap=   54.0 ms
+  t= 269.801 s   gap=  103.0 ms
+  t= 269.938 s   gap=  162.0 ms
+  t= 270.112 s   gap=  119.0 ms
+  t= 270.299 s   gap=  131.1 ms
+  t= 270.430 s   gap=  124.0 ms
+  t= 270.554 s   gap=  133.0 ms
+  t= 270.687 s   gap=   57.0 ms
+  t= 270.748 s   gap=   77.0 ms
+  t= 270.850 s   gap=   65.0 ms
+  t= 271.150 s   gap=   85.0 ms
+  t= 271.384 s   gap=  100.0 ms
+  t= 271.495 s   gap=   58.2 ms
+  t= 271.628 s   gap=   90.0 ms
+  t= 271.855 s   gap=   50.0 ms
+  t= 271.905 s   gap=  116.0 ms
+  t= 272.059 s   gap=   69.0 ms
+  t= 272.154 s   gap=   54.0 ms
+  t= 272.309 s   gap=  109.0 ms
+  t= 272.468 s   gap=   61.0 ms
+  t= 272.529 s   gap=   81.0 ms
+  t= 272.618 s   gap=   50.0 ms
+  t= 274.471 s   gap=   50.0 ms
+  t= 274.986 s   gap=   85.0 ms
+  t= 275.086 s   gap=   50.0 ms
+  t= 282.036 s   gap=   80.3 ms
+  t= 307.590 s   gap=   50.0 ms
+  t= 359.924 s   gap=  120.0 ms
+  t= 360.044 s   gap=   54.0 ms
+  t= 360.217 s   gap=   68.0 ms
+  t= 361.162 s   gap=   60.9 ms
+  t= 371.316 s   gap=   77.4 ms
+  t= 376.839 s   gap=   61.0 ms
+  t= 377.009 s   gap=   61.0 ms
+  t= 377.334 s   gap=   50.0 ms
+  t= 377.637 s   gap=   77.0 ms
+  t= 377.744 s   gap=   65.0 ms
+  t= 377.983 s   gap=   54.0 ms
+  t= 378.074 s   gap=  121.0 ms
+  t= 378.317 s   gap=   64.0 ms
+  t= 378.460 s   gap=   69.0 ms
+  t= 378.626 s   gap=   62.0 ms
+  t= 378.706 s   gap=   62.0 ms
+  t= 378.851 s   gap=   65.0 ms
+  t= 379.508 s   gap=   59.5 ms
+  t= 379.655 s   gap=   85.0 ms
+  t= 379.740 s   gap=   50.0 ms
+  t= 379.889 s   gap=   50.0 ms
+  t= 379.939 s   gap=  121.0 ms
+  t= 380.153 s   gap=   50.0 ms
+  t= 380.210 s   gap=   89.0 ms
+  t= 380.299 s   gap=   65.0 ms
+  t= 380.364 s   gap=  132.0 ms
+  t= 381.172 s   gap=   66.7 ms
+  t= 381.273 s   gap=   57.0 ms
+  t= 381.330 s   gap=   54.0 ms
+  t= 381.515 s   gap=   96.0 ms
+  t= 383.117 s   gap=   79.0 ms
+  t= 383.305 s   gap=   77.0 ms
+  t= 383.394 s   gap=  112.0 ms
+  t= 383.668 s   gap=   60.0 ms
+  t= 383.736 s   gap=   54.0 ms
+  t= 384.244 s   gap=  112.0 ms
+  t= 385.524 s   gap=   64.3 ms
+  t= 385.645 s   gap=   54.0 ms
+  t= 385.909 s   gap=   60.2 ms
+  t= 385.994 s   gap=   50.9 ms

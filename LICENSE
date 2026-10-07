@@ -1,0 +1,20 @@
+RTL8761BU Bluetooth A2DP Kesintisi — Kök Neden ve Çözüm
+Telif: void0x14 (2026)
+
+Bu depodaki metinler, belgeler ve betikler:
+    Creative Commons Atıf 4.0 Uluslararası (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/deed.tr
+
+Özetle: kaynak belirttiğin sürece kopyalayabilir, dağıtabilir, değiştirebilir
+ve ticari olarak kullanabilirsin.
+
+-----------------------------------------------------------------------
+
+veri/ altındaki firmware ikilileri (rtl8761bu_fw.bin ve
+rtl8761bu_fw_BOZUK_0xdfc6d922.bin.zst) Realtek Semiconductor'a aittir ve
+linux-firmware deposunun lisansına tabidir (yeniden dağıtıma izin verir):
+
+    https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git
+
+Bu ikililer, sorunun kanıtı ve düzeltmenin kaynağı olarak, değiştirilmeden
+yeniden dağıtılmaktadır.

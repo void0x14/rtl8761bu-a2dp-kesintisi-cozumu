@@ -1,0 +1,167 @@
+# JOURNAL KANITLARI — QCY-T13 / TP-Link UB500 (2357:0604) / RTL8761BU
+# Kaynak: journalctl -b all  (systemd kalıcı günlük, /var/log/journal)
+# Tarih aralığı: 2026-09-30 .. 2026-10-08
+
+## 1) A2DP transport çökmesi (25 kez, tek başına 8 günde)
+2026-09-30T20:18:07+03:00 void0x14 wireplumber[3092]: spa.bluez5.sink.media: 0x595c69e99d58: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-09-30T23:13:36+03:00 void0x14 wireplumber[3092]: spa.bluez5.sink.media: 0x595c6a1c3668: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-01T02:46:19+03:00 void0x14 wireplumber[3200]: spa.bluez5.sink.media: 0x6000b2ca4528: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-01T03:10:29+03:00 void0x14 wireplumber[2990]: spa.bluez5.sink.media: 0x5dbc1257b138: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-01T05:21:19+03:00 void0x14 wireplumber[3096]: spa.bluez5.sink.media: 0x5de2d25407f8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-01T08:15:28+03:00 void0x14 wireplumber[3096]: spa.bluez5.sink.media: 0x5de2d25407f8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-01T12:14:28+03:00 void0x14 wireplumber[3096]: spa.bluez5.sink.media: 0x5de2d2566f38: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-01T12:51:56+03:00 void0x14 wireplumber[3096]: spa.bluez5.sink.media: 0x5de2d2566f38: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-02T02:25:38+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a802f73048: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-02T05:56:49+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a802f73048: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-02T08:59:39+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a802f73048: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-02T09:09:52+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a802f73048: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-02T13:09:43+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a802f73048: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-02T19:13:47+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a802f73048: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-03T02:40:13+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a802f73048: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-03T09:00:18+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a802f73048: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-04T16:40:21+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a8031f35b8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-04T20:47:49+03:00 void0x14 wireplumber[3116]: spa.bluez5.sink.media: 0x62a8031f35b8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-06T07:18:41+03:00 void0x14 wireplumber[3984580]: spa.bluez5.sink.media: 0x5d44c4b7a0f8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-06T08:55:13+03:00 void0x14 wireplumber[3984580]: spa.bluez5.sink.media: 0x5d44c4b79fa8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-06T18:46:27+03:00 void0x14 wireplumber[3984580]: spa.bluez5.sink.media: 0x5d44c4b79fa8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-06T21:31:11+03:00 void0x14 wireplumber[3984580]: spa.bluez5.sink.media: 0x5d44c4b79fa8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-07T02:24:40+03:00 void0x14 wireplumber[3984580]: spa.bluez5.sink.media: 0x5d44c4b79bb8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-07T08:57:37+03:00 void0x14 wireplumber[3984580]: spa.bluez5.sink.media: 0x5d44c4b79bb8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-07T23:29:53+03:00 void0x14 wireplumber[5903]: spa.bluez5.sink.media: 0x5eb5ef67a8e8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-08T00:27:30+03:00 void0x14 wireplumber[5903]: spa.bluez5.sink.media: 0x5eb5ef67a8e8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+2026-10-08T00:36:37+03:00 void0x14 wireplumber[5903]: spa.bluez5.sink.media: 0x5eb5ef67a8e8: connection (/org/bluez/hci0/dev_1C_52_16_D4_CC_EC/sep2/fd0) terminated unexpectedly
+
+## 2) HFP gateway ENOTCONN/107 — AYNI SANİYE (link yıkımının 2. tanığı)
+2026-10-01T02:46:19+03:00 void0x14 bluetoothd[677]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-01T03:10:29+03:00 void0x14 bluetoothd[695]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-01T05:21:19+03:00 void0x14 bluetoothd[690]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-01T08:15:28+03:00 void0x14 bluetoothd[690]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-01T12:14:28+03:00 void0x14 bluetoothd[690]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-02T02:25:38+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-02T05:56:49+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-02T08:59:39+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-02T09:09:52+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-02T13:09:43+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-02T19:13:47+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-03T02:40:13+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-03T09:00:18+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-04T16:40:21+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-04T19:40:36+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-04T20:47:49+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-06T07:18:41+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-06T08:55:14+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-06T18:46:27+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-07T02:24:40+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-07T08:57:37+03:00 void0x14 bluetoothd[701]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-07T23:29:53+03:00 void0x14 bluetoothd[104675]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-08T00:27:30+03:00 void0x14 bluetoothd[104675]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+2026-10-08T00:36:37+03:00 void0x14 bluetoothd[104675]: src/profile.c:ext_io_disconnected() Unable to get io data for Hands-Free Voice gateway: getpeername: Transport endpoint is not connected (107)
+
+## 3) AVRCP sanal input cihazının (13:84 = QCY-T13 (AVRCP)) bırakılması — 3. tanık
+2026-10-04T16:40:21+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-04T19:40:36+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-04T20:47:49+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: "(II) UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-06T07:18:42+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: "(II) UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-06T08:55:14+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-06T18:46:27+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: "UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-06T21:31:11+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-07T02:24:40+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-07T08:57:37+03:00 void0x14 plasmalogin-helper-start-x11user[221853]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-07T23:29:53+03:00 void0x14 plasmalogin-helper-start-x11user[5605]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-08T00:27:30+03:00 void0x14 plasmalogin-helper-start-x11user[5605]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+2026-10-08T00:36:37+03:00 void0x14 plasmalogin-helper-start-x11user[5605]: " UnloadModule: \"libinput\"\n(II) systemd-logind: releasing fd for 13:84\n"
+
+## 4) Boot başına kesinti sayısı
+boot -15: terminated=0 enotconn=0 avrcp_release=0
+boot -14: terminated=2 enotconn=0 avrcp_release=0
+boot -13: terminated=0 enotconn=0 avrcp_release=0
+boot -12: terminated=0 enotconn=0 avrcp_release=0
+boot -11: terminated=0 enotconn=0 avrcp_release=0
+boot -10: terminated=0 enotconn=0 avrcp_release=0
+boot -9: terminated=0 enotconn=0 avrcp_release=0
+boot -8: terminated=0 enotconn=0 avrcp_release=0
+boot -7: terminated=0 enotconn=0 avrcp_release=0
+boot -6: terminated=0 enotconn=0 avrcp_release=0
+boot -5: terminated=0 enotconn=0 avrcp_release=0
+boot -4: terminated=1 enotconn=1 avrcp_release=0
+boot -3: terminated=1 enotconn=1 avrcp_release=0
+boot -2: terminated=4 enotconn=3 avrcp_release=0
+boot -1: terminated=16 enotconn=16 avrcp_release=9
+boot 0: terminated=3 enotconn=3 avrcp_release=3
+
+## 5) BlueZ profil bağlama hataları
+2026-10-01T09:38:59+03:00 void0x14 bluetoothd[690]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-01T11:28:39+03:00 void0x14 bluetoothd[690]: src/profile.c:ext_connect() Hands-Free Voice gateway failed connect to 1C:52:16:D4:CC:EC: Connection reset by peer (104)
+2026-10-01T12:14:30+03:00 void0x14 bluetoothd[690]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-01T12:14:31+03:00 void0x14 bluetoothd[690]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-02T00:25:30+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-02T02:49:32+03:00 void0x14 bluetoothd[701]: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Connection reset by peer
+2026-10-02T03:01:27+03:00 void0x14 bluetoothd[701]: src/profile.c:record_cb() Unable to get Hands-Free Voice gateway SDP record: Connection reset by peer
+2026-10-02T09:04:43+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-02T09:53:52+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-02T13:54:01+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-02T19:13:53+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-02T19:14:00+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-02T19:14:09+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-02T19:14:22+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-02T19:14:43+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-02T19:15:20+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-02T19:16:29+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-03T04:18:35+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-03T09:00:25+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-03T09:00:32+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-03T09:00:41+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-03T09:00:54+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-03T09:01:15+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-03T09:01:52+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-03T09:03:01+03:00 void0x14 bluetoothd[701]: profiles/audio/avdtp.c:avdtp_connect_cb() connect to 1C:52:16:D4:CC:EC: Host is down (112)
+2026-10-04T10:12:33+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-04T18:26:47+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-06T01:20:30+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-06T12:34:56+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-06T21:55:37+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-07T06:13:16+03:00 void0x14 bluetoothd[701]: src/service.c:btd_service_connect() a2dp-sink profile connect failed for 1C:52:16:D4:CC:EC: Device or resource busy
+2026-10-07T12:22:59+03:00 void0x14 libvirtd[2029224]: Unable to read from monitor: Connection reset by peer
+
+## 6) Kernel SCO hataları (HFP ses kanalı, mikron kullanılmadığı hâlde)
+2026-10-02T09:04:57+03:00 void0x14 kernel: Bluetooth: hci0: SCO packet for unknown connection handle 8
+2026-10-04T18:28:53+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:30:11+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:32:37+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:37:35+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:38:21+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:40:34+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:40:47+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:55:22+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:55:40+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T18:59:16+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T19:02:51+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T19:04:45+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T19:07:24+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T19:13:51+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T19:16:41+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T19:21:29+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-04T19:28:31+03:00 void0x14 kernel: Bluetooth: hci0: corrupted SCO packet
+2026-10-06T01:31:29+03:00 void0x14 kernel: Bluetooth: hci0: SCO packet for unknown connection handle 2
+2026-10-06T12:46:18+03:00 void0x14 kernel: Bluetooth: hci0: SCO packet for unknown connection handle 5
+
+## 7) KESİNTİ ANINDA DENETLEYİCİ SEVİYESİNDE HİÇBİR KAYIT YOK
+#   hci0/btusb seviyesinde disconnect/reset/error/timeout eşleşme sayısı:
+4
+#   => kopma SESSİZDİR; bu yüzden 'günlükte bir şey yok' diyenler yanılıyor.
+
+## 8) Adaptörün çalıştırdığı firmware (bozuk sürüm)
+2026-09-30T23:34:55+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-09-30T23:39:24+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-09-30T23:44:21+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-09-30T23:56:02+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-01T00:32:32+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-01T00:49:49+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-01T00:53:38+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-01T02:21:59+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-01T02:47:01+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-01T03:11:12+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-02T00:09:48+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-05T16:27:28+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-07T21:42:33+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0xdfc6d922
+2026-10-08T00:27:34+03:00 void0x14 kernel: Bluetooth: hci0: RTL: fw version 0x09a98a6b

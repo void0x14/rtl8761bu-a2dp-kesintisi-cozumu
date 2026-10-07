@@ -1,0 +1,10 @@
+# ÖLÇÜM — YENİ (İYİ) FIRMWARE  0x09a98a6b
+# Yöntem: btmon ile HCI/ACL paket yakalama, paketler arası boşluk analizi
+# Tarih: 2026-10-08 (yerel saat)
+
+toplam_acl_paketi = 18459
+olcum_suresi_s   = 393.7
+medyan_aralik_ms = 21.3
+p99_aralik_ms    = 21.4
+maks_aralik_ms   = 32
+bosluk_50ms_uzeri= 0
