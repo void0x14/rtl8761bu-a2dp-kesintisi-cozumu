@@ -50,6 +50,16 @@ bash olc.sh 300      # 300 sn yakalar, >50ms boşluk sayısını verir
 
 `>50ms boşluk: 0` ve `maks ≈ 21–35 ms` = sorun çözüldü.
 
+**Ek kontrol — profil doğru mu?** Firmware yeniden yüklendikten sonra
+kulaklık bazen HFP/headset profiline düşer (mono, düşük kalite):
+
+```bash
+pactl list cards | grep -A1 "Name: bluez_card" | grep Active
+# "a2dp-sink" olmalı; "headset-head-unit" ise:
+pactl set-card-profile bluez_card.XX_XX_XX_XX_XX_XX a2dp-sink
+```
+
+
 ## Sert kurallar (bu vakada kanıtlanmış)
 
 1. **Ölçmeden sonuca varma.** `btmon` olmadan "çözüldü" deme.

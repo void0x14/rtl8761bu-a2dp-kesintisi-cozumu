@@ -78,6 +78,29 @@ bluetoothctl connect 1C:52:16:D4:CC:EC     # kendi MAC adresin
 bluetoothctl info 1C:52:16:D4:CC:EC | grep -iE "Connected|Battery"
 ```
 
+### 6. Profil A2DP mi? (sık atlanan adım)
+
+Firmware yeniden yüklendikten sonra kulaklık bazen **HFP/headset**
+profiline düşer (ses kalitesi düşer, mono olur). Kontrol et:
+
+```bash
+pactl list cards | grep -A1 "Name: bluez_card" | grep -iE "Name:|Active"
+```
+
+`Active Profile: a2dp-sink` olmalı. Değilse zorla:
+
+```bash
+pactl set-card-profile bluez_card.1C_52_16_D4_CC_EC a2dp-sink
+```
+
+Doğrula:
+
+```bash
+pw-dump | grep -o '"api.bluez5.codec": "[a-z]*"' | sort -u
+# Beklenen: "aac"  (msbc/cvsd = HFP, yani yanlış profil)
+```
+
+
 ## Çözüm B — Arch/CachyOS: pacman hook (kalıcı)
 
 `linux-firmware` güncellendiğinde bozuk sürüm geri gelir. Hook bunu engeller.
